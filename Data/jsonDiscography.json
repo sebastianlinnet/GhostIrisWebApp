@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "AlbumCover": "anecdotes.jpg",
+    "AlbumTitle": "Anecdotes of Science & Soul",
+    "ReleaseDate": "February 23rd, 2015",
+    "Spotify": "https://open.spotify.com/album/6zZO6qs5LF07RkAVZDLz4x?si=ADBmLP2ESs6TEoIEigfytA&dl_branch=1"
+  },
+  {
+    "Id": 2,
+    "AlbumCover": "blindworld.jpg",
+    "AlbumTitle": "Blind World",
+    "ReleaseDate": "February 17th, 2017",
+    "Spotify": "https://open.spotify.com/album/6nrf0WPiKJkNMvkCy1633M?si=vlwG1bzXQ3azj5_JOJaz4A&dl_branch=1"
+  },
+  {
+    "Id": 3,
+    "AlbumCover": "appleofdiscord.jpg",
+    "AlbumTitle": "Apple of Discord",
+    "ReleaseDate": "February 22rd, 2019",
+    "Spotify": "https://open.spotify.com/album/71AN4Bro8X57lLN90tfelX?si=Y9mjmRJMRMODjmCBHtitQw&dl_branch=1"
+  },
+  {
+    "Id": 4,
+    "AlbumCover": "comatose.jpg",
+    "AlbumTitle": "Comatose",
+    "ReleaseDate": "May 7th, 2021",
+    "Spotify": "https://open.spotify.com/album/0kPtITBQ4RlBy61FHV1aLf?si=pIgHADAFQ7ace8YeuLtHOQ&dl_branch=1"
+  }
+]

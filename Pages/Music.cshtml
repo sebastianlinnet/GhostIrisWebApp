@@ -1,0 +1,70 @@
+﻿@page
+@model MusicModel
+@{
+}
+
+
+<body>
+    <div class="text-center">
+        <header>
+            <h1 class="display-4">MUSIC</h1>
+        </header>
+        <div class="discography-container">
+            @*<ul class="discography-ul">
+            @foreach (var item in Model.Albums)
+            {
+            <li class="discography-display">
+                <img src="~/imgs/@item.AlbumCover" style="max-width: 225px; padding: 15px;" />
+                <p style="font-weight: bold;">@item.AlbumTitle</p>
+                <p>@item.ReleaseDate</p>
+                <p><a href="@item.Spotify" target="_blank">Listen</a></p>
+            </li>
+            }
+        </ul>*@
+            <h3 class="album-title">Comatose</h3>
+            <p>May 7th, 2021 (SPV/Long Branch Records)</p>
+            <iframe src="https://open.spotify.com/embed/album/0kPtITBQ4RlBy61FHV1aLf?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <hr />
+            <h3 class="album-title">Apple of Discord</h3>
+            <p>February 22rd, 2019 (SPV/Long Branch Records)</p>
+            <iframe src="https://open.spotify.com/embed/album/71AN4Bro8X57lLN90tfelX?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <hr />
+            <h3 class="album-title">Blind World</h3>
+            <p>February 17th, 2017 (SPV/Long Branch Records)</p>
+            <iframe src="https://open.spotify.com/embed/album/6nrf0WPiKJkNMvkCy1633M?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <hr />
+            <h3 class="album-title">Anecdotes of Science & Soul</h3>
+            <p>February 23rd, 2015 (Self released)</p>
+            <iframe src="https://open.spotify.com/embed/album/6zZO6qs5LF07RkAVZDLz4x?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+
+        </div>
+    </div>
+</body>
+<style type="text/css">
+/*    div.discography-container {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ul.discography-ul {
+        width: 100%;
+        margin: auto;
+        line-height: 1.4;
+        padding-left: 0;
+        overflow: hidden;
+        position: relative;
+    }
+
+    li.discography-display {
+        display: inline-block;
+        text-align: center;
+        transition: all 0.2s ease-in-out;
+    }
+
+    li.discography-display:hover {
+        background: #100f0f;
+        box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 1);
+    }*/
+</style>

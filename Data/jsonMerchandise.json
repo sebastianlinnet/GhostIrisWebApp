@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "Image": "Merch/exorcist.jpg",
+    "Name": "EXORCIST",
+    "Description": "Printed on Gildan Heavy Cotton",
+    "Price": 20.00
+  },
+  {
+    "Id": 2,
+    "Image": "Merch/hoodie.jpg",
+    "Name": "LOGO HOODIE",
+    "Description": "Printed on Gildan Heavy Blend",
+    "Price": 30.00
+  },
+  {
+    "Id": 3,
+    "Image": "Merch/dadhat.jpg",
+    "Name": "DAD HAT",
+    "Description": "Printed on Beechfield 6 panel dad hat",
+    "Price": 25.00
+  },
+  {
+    "Id": 4,
+    "Image": "Merch/totebag.jpg",
+    "Name": "TOTEBAG",
+    "Description": "Printed on Westfield Totebag",
+    "Price": 6.00
+  },
+  {
+    "Id": 5,
+    "Image": "Merch/fuckmankind.jpg",
+    "Name": "FUCK MANKIND",
+    "Description": "Printed on Gildan Heavy Cotton",
+    "Price": 20.00
+  },
+  {
+    "Id": 6,
+    "Image": "Merch/snake.jpg",
+    "Name": "UNCOMMON UNITY",
+    "Description": "Printed on Gildan Heavy Cotton",
+    "Price": 20.00
+  },
+  {
+    "Id": 7,
+    "Image": "Merch/cryptic.jpg",
+    "Name": "CRYPTIC",
+    "Description": "Printed on Gildan Heavy Cotton",
+    "Price": 20.00
+  },
+  {
+    "Id": 8,
+    "Image": "Merch/skeleton.jpg",
+    "Name": "SKELETON",
+    "Description": "Printed on Gildan Heavy Blend",
+    "Price": 25.00
+  },
+  {
+    "Id": 9,
+    "Image": "Merch/comatose_vinyl.jpg",
+    "Name": "COMATOSE LP",
+    "Description": "Limited blood spatter vinyl",
+    "Price": 25.00
+  },
+  {
+    "Id": 10,
+    "Image": "Merch/comatose_cd.jpg",
+    "Name": "COMATOSE CD",
+    "Description": "6 panel digipack",
+    "Price": 20.00
+  }
+]

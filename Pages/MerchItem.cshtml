@@ -1,0 +1,80 @@
+﻿@page
+@model GhostIrisWebApp.Pages.MerchItemModel
+@{
+}
+
+<body>
+    <div class="text-center">
+        <header>
+            <h1 class="display-4">@Model.Merch.Name</h1>
+        </header>
+        @*<div class="row" style="display: flex; flex-wrap: wrap; flex-direction: column; max-width: 1000px; margin-left: auto; margin-right: auto;">
+
+            <div class="col" style="max-width: 390px; flex: 1;">
+                <img src="~/imgs/@Model.Merch.Image" style="width:100%;" />
+            </div>
+            <div class="col" style="max-width: 400px; flex: 1; text-align: left;">
+                <p>@Model.Merch.Description</p>
+                <p>@Model.Merch.Price €</p>
+            </div>
+        </div>*@
+    </div>
+    <div class="merch-item-container">
+        <div class="row">
+            <div class="col-50">
+                <div class="container-merch">
+                    <img src="~/imgs/@Model.Merch.Image" style="width:100%;" />
+                </div>
+            </div>
+
+            <div class="col-50">
+                <div class="container-merch">
+                    <p>@Model.Merch.Description</p>
+                    <p>@Model.Merch.Price €</p>
+
+                    <a asp-page="" asp-route-isbn="" class="btn btn-success btn-group-lg pull-right">
+                     Add To Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+
+
+
+<style type="text/css">
+    .merch-item-container {
+        max-width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -16px;
+    }
+
+    .col-50 {
+        flex: 50%;
+    }
+
+    .container-merch {
+        margin: 15px;
+        text-align: left;
+    }
+
+@@media (max-width: 500px) {
+    .row {
+    flex-direction: column;
+    }
+    .col-25 {
+    margin-bottom: 20px;
+    }
+}
+</style>

@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - GhostIrisWebApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark box-shadow mb-3 float-md-none">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1" id="flexcontainer">
+                        <li class="nav-item" style="margin: 10px;"><a asp-area="" asp-page="/Index">Home</a></li>
+                        <li class="nav-item" style="margin: 10px"><a asp-area="" asp-page="/Music">Music</a></li>
+                        <li class="nav-item" style="margin: 10px"><a asp-area="" asp-page="/TourDates">Tour</a></li>
+                        <li class="nav item" style="margin: 10px"><a asp-area="" asp-page="/Merch">Merchandise</a></li>
+                        <li class="nav item" style="margin: 10px"><a asp-area="" asp-page="/Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-0">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer text-muted">
+        <div class="container">
+            <p style="text-align: center">&copy; 2021 - Ghost Iris - <a href="https://www.instagram.com/ghostirisdk" target="_blank" class="so-me" ><img src="~/imgs/instagram.png" /></a> <a href="https://www.facebook.com/ghostiris" target="_blank" class="so-me"><img src="~/imgs/facebook.png" /></a></p>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+<style type="text/css">
+
+    body {
+        background-image: url(../imgs/webapp_bg.jpg);
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: #000000;
+    }
+
+    a {
+        color: azure;
+        transition: all 0.2s ease-in-out;
+    }
+    a:hover {
+        color: #808080;
+        text-decoration: none;
+    }
+
+    a.so-me:hover {
+        opacity: 0.2;
+    }
+        
+    p {
+        color: azure;
+    }
+
+    h1 {
+        color: azure;
+    }
+
+    #flexcontainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #flexcontainter > li {
+        float: left;
+    }
+</style>
